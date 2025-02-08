@@ -265,6 +265,10 @@ section {
 
 #about {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-containers {
@@ -330,6 +334,12 @@ section {
   position: relative;
   width: 100%;
   max-width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
 
 .experience-sub-title {
@@ -348,7 +358,7 @@ section {
 }
 
 .experience-details-container > * {
-  flex: 1 1 300px; /* Allows wrapping at ~300px width */
+
   min-width: 250px; /* Prevents items from getting too small */
 
 }
@@ -374,7 +384,7 @@ article .icon {
   cursor: default;
 }
 .details-container {
-  max-width: 80%;
+  max-width: 100%;
   overflow: hidden;
 }
 body {
